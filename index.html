@@ -3,98 +3,137 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/69c3ecd250.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="main.css">
     <title>Ian Brown - Personal Website</title>
 </head>
 <body>
     <!--
-        Header
-            Navbar/menu
-            Contact info
-        Headline (summary, CTA?)
-        About (personal & technical)
-        Projects (portfolio)
-        Blog
-        Links (CV, LI profile, company?)
-        Contact
-        Footer
+        Common:
+            Header
+                Navbar/menu
+                Contact info (brief)
+            Footer
+                Contact info (full)
+
+        Home Page: (divide into work/life??)
+            Headline (summary, CTA?)
+            About (summary)
+            Portfolio (summary)
+            Links (CV, LI profile, company?) - common??
+
+        Other pages:
+            About (personal & technical)
+            Projects (portfolio)
+            Blog
+            Photos?
+            Contact me (form)
     -->
     
     <header>
         <nav class="navbar">
-            <ul class="navbar_items">
-                <li class="navbar_item">
-                    <a href="index.html">Home</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#">About</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#">Portfolio</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#">Blog</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#">Links</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#">Contact</a>
-                </li>
-            </ul>
-        </nav>
+            <div class="left-side">
+                <ul class="navbar_items">
+                    <li class="navbar_item">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#">About</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#">Blog</a>
+                    </li>
+                    <li class="navbar_item">
+                        <a href="#">Links</a>
+                    </li>
+                    <!-- <li class="navbar_item">
+                        <a href="#">Contact</a>
+                    </li> -->
+                </ul>
+            </div>
 
-        <div class="Contact_basic">
-            ianmsb@gmail.com
-        </div>
+            <div class="contact-email">
+                <i class="far fa-envelope"> ianmsb@gmail.com</i>
+            </div>
+        </nav>
     </header>
 
-    <section class="Headline">
-        <div class="Summary">
-            Ian Brown - Software Developer
-            <div class="Section_content">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde possimus pariatur molestias nesciunt quos magnam rerum obcaecati mollitia assumenda illo quo natus sit, sed iusto, fuga libero. Explicabo, nemo dignissimos.
-            </div>
+    <section class="headline">
+        <h1>Ian Brown - Software Developer</h1>            
+        <div class="section-content">
+            <p>
+                An experienced developer who will bring value to your projects.
+            </p>
+        </div>
+        <div class="btn btn-cta">
+            <a href="">Hire Me</a>
         </div>
     </section>
 
-    <section class="About">
-        Put technical and personal stuff here.
-        <div class="Section_content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, culpa saepe cum ea dolor, temporibus neque provident libero accusantium adipisci sint doloribus, fugit totam ullam corporis nobis ex! Laudantium, excepturi?
+    <section class="about">
+        <h3>A little about me...</h3>
+        <div class="section-content">
+            <p>
+                Put general summary of technical and personal stuff here.
+            </p>
         </div>
     </section>
 
-    <section class="Portfolio">
-        Put projects here.
-        <div class="Section_content">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis vitae excepturi optio. Voluptatem doloribus illum odio esse sed aperiam provident minus, architecto reiciendis beatae ipsum quo cumque! Cupiditate, animi dolorum?
+    <section class="portfolio">
+        <h3>Some things I've worked on</h3>       
+        <div class="section-content">
+            <p>
+                Put projects here.
+            </p>
         </div>
     </section>
 
-    <section class="Blog">
+    <!-- <section class="Blog">
         Put blog posts here.
         <div class="Section_content">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis voluptatum, ad, libero perferendis corporis deleniti rerum ea necessitatibus veniam corrupti labore assumenda eaque sequi? Dolorem beatae id exercitationem consequatur ipsam.
         </div>
-    </section>
+    </section> -->
 
-    <section class="Links">
-        Put relevant & interesting links here.
-        <div class="Section_content">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam voluptates eaque, culpa aperiam eveniet inventore veritatis eius debitis soluta porro aliquam fuga quibusdam qui fugiat, facilis explicabo placeat quaerat sequi.
+    <!-- <section class="links">
+        <h3>Links</h3>        
+        <div class="section-content">
+            <p>
+                Put relevant & interesting links here.
+            </p>
         </div>
     </section>
-
-    <section class="Contact">
+ -->
+    <!-- <section class="Contact">
         Put 'full' contact info here.
         <div class="Section_content">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium quaerat quia at corporis nostrum tempora, ea saepe magnam commodi assumenda eius aliquam odit totam eveniet id inventore iste ullam ipsam!
         </div>
-    </section>
+    </section> -->
 
     <footer>
-        This is the footer.  Content?
+        <ul class="social-links">
+            <li>
+                <i class="fab fa-linkedin-in"></i>
+                <a href="http://linkedin.com/in/mribrown">LinkedIn profile</a>
+            </li>
+            <li>
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/ianmichaelbrown">GitHub account</a>
+            </li>
+            <li>
+                <i class="far fa-envelope"></i>
+                <a href="mailto:ianmsb@gmail.com?compose=new">Email</a>
+            </li>
+        </ul>
+        <p class="copyright">
+            Website: Ian Brown<br/>
+            Copyright &copy; <!-- 2020 - -->
+            <script>document.write( new Date().getFullYear() );</script>
+        </p>
     </footer>
 
 </body>
